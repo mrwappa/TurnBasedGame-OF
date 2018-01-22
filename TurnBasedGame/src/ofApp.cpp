@@ -1,48 +1,32 @@
 #include "ofApp.h"
 
-bool ofApp::KeyPress[127];
-int ofApp::Keys[127];
+InputHandler ofApp::Input;
+
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+	ofSetWindowShape(ofGetScreenWidth(), ofGetScreenHeight());
+	ofSetWindowPosition(0, 0);
 }
-
 //--------------------------------------------------------------
 void ofApp::update(){
-	for (int i = 0; i < 127; i++)
-	{
-		Keys[i] = Keys[i] > 0 ? -1 : 0;
-		if (KeyPress[i])
-		{
-			Keys[i] += 2;
-		}
-	}
 
-	if (Keys['a'] == 2)
-	{
-		ofSetBackgroundColor(ofColor::white);
-		std::cout << "1" << "\n";
-	}
-	else
-	{
-		ofSetBackgroundColor(ofColor::black);
-	}
+	Input.Update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+	
 }
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-	KeyPress[key] = true;
+	InputHandler::KeyPress[key] = true;
 }
 
 //--------------------------------------------------------------
 void ofApp::keyReleased(int key){
-	KeyPress[key] = false;
+	InputHandler::KeyPress[key] = false;
 }
 
 //--------------------------------------------------------------
@@ -52,17 +36,17 @@ void ofApp::mouseMoved(int x, int y ){
 
 //--------------------------------------------------------------
 void ofApp::mouseDragged(int x, int y, int button){
-
+	
 }
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-
+	InputHandler::MousePress[button] = true;
 }
 
 //--------------------------------------------------------------
 void ofApp::mouseReleased(int x, int y, int button){
-
+	InputHandler::MousePress[button] = false;
 }
 
 //--------------------------------------------------------------

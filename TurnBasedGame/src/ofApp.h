@@ -1,6 +1,8 @@
-#pragma once
+#ifndef OFAPP_H
+#define OFAPP_H
 
 #include "ofMain.h"
+#include "InputHandler.h"
 
 class ofApp : public ofBaseApp{
 
@@ -21,7 +23,7 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
-		static bool KeyPress[127];
-		static int Keys[127];
+		static InputHandler Input;
 		
 };
+#endif // !OFAPP_H
