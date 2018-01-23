@@ -7,11 +7,13 @@ InputHandler ofApp::Input;
 void ofApp::setup(){
 	ofSetWindowShape(ofGetScreenWidth(), ofGetScreenHeight());
 	ofSetWindowPosition(0, 0);
+	glEnable(GL_DEPTH);
 }
 //--------------------------------------------------------------
 void ofApp::update(){
 
 	Input.Update();
+
 }
 
 //--------------------------------------------------------------

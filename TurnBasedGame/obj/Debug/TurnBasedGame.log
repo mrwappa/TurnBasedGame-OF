@@ -1,5 +1,16 @@
-﻿  ofApp.cpp
-  TurnBasedGame.vcxproj -> C:\Users\Erik Wapner\Documents\GitHub\TurnBasedGame\TurnBasedGame\bin\TurnBasedGame_debug.exe
-  TurnBasedGame.vcxproj -> bin\TurnBasedGame_debug.pdb (Full PDB)
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Def.cpp
+  Sprite.cpp
+c:\users\erik.wapner\documents\github\turnbasedgame-of\turnbasedgame\Def.h(30): warning C4091: 'static ': ignored on left of 'Def' when no variable is declared (compiling source file Def.cpp)
+Def.cpp(55): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+Def.cpp(60): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\erik.wapner\documents\github\turnbasedgame-of\turnbasedgame\Def.h(8): warning C4005: 'MB_RIGHT': macro redefinition (compiling source file Sprite.cpp)
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\winuser.h(8663): note: see previous definition of 'MB_RIGHT' (compiling source file Sprite.cpp)
+c:\users\erik.wapner\documents\github\turnbasedgame-of\turnbasedgame\Def.h(30): warning C4091: 'static ': ignored on left of 'Def' when no variable is declared (compiling source file Sprite.cpp)
+Sprite.cpp(44): warning C4996: 'ofImage_<unsigned char>::loadImage': Use load instead
+  C:\OpenFrameWorks v0.9.8\libs\openFrameworks\graphics\ofImage.h(185): note: see declaration of 'ofImage_<unsigned char>::loadImage'
+     Creating library \bin\TurnBasedGame_debug.lib and object \bin\TurnBasedGame_debug.exp
+  TurnBasedGame.vcxproj -> \bin\TurnBasedGame_debug.exe
+  TurnBasedGame.vcxproj -> \bin\TurnBasedGame_debug.pdb (Full PDB)
   
   	                   9	C:\OpenFrameWorks v0.9.8\export\vs\Win32\

@@ -176,7 +176,9 @@
     <PostBuildEvent />
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Def.cpp" />
     <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="src\InputHandler.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\ofApp.cpp" />
@@ -197,7 +199,9 @@
     <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxXmlSettings\libs\tinyxmlparser.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Def.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Sprite.h" />
     <ClInclude Include="src\GrowingArray.h" />
     <ClInclude Include="src\InputHandler.h" />
     <ClInclude Include="src\ofApp.h" />

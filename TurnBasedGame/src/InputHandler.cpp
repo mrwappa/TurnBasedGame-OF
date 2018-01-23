@@ -1,4 +1,5 @@
 #include "InputHandler.h"
+
 bool InputHandler::KeyPress[8196];
 int InputHandler::Keys[8196];
 bool InputHandler::MousePress[8196];
@@ -32,4 +33,5 @@ void InputHandler::Update()
 			Mouse[i] += 2;
 		}
 	}
+
 }
