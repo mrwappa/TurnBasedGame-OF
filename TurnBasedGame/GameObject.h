@@ -1,12 +1,11 @@
 #ifndef GAMEOBJECT_H
 #define GAMEOBJECT_H
-#include <math.h>
 #include <map>
 #include "GrowingArray.h"
 #include "Vector2.h"
 #include "InputHandler.h"
-
 #include "ofAppBaseWindow.h"
+#include "Sprite.h"
 
 class GameObject
 {
@@ -26,9 +25,6 @@ public:
 	virtual void EndUpdate();
 	virtual void Draw();
 	virtual void DrawGUI();
-
-	//Mouse,Keyboard
-	static InputHandler* Input;
 
 	bool KeyboardCheck(int aKey);
 	bool KeyboardCheckPressed(int aKey);
@@ -55,10 +51,12 @@ protected:
 	float myXScale;
 	float myYScale;
 	float myAlpha;
-
 	
+	Sprite mySprite;
 	ofColor myColor;
 	float myAnimationSpeed;
+
+	bool myActive;
 
 private:
 	static GrowingArray<GameObject*>* GrArrayPtr;

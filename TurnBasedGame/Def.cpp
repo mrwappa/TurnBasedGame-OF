@@ -1,7 +1,5 @@
 #include "Def.h"
 
-
-
 Def::Def()
 {
 	
@@ -31,7 +29,7 @@ float Def::Max(float value, float max)
 
 float Def::Lerp(float value, float goal, float procent)
 {
-	return 0.0f;
+	return value * procent + goal * (1 - procent);
 }
 
 float Def::SQRT2(const float aX)

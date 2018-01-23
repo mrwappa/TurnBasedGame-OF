@@ -1,3 +1,4 @@
+
 #ifndef DEF_H
 #define DEF_H
 
@@ -18,7 +19,7 @@ public:
 	Def();
 	~Def();
 
-	//Quickt
+	//Quick Maths
 	static float Clamp(float value, float min, float max);
 	static float Min(float value, float min);
 	static float Max(float value, float max);
@@ -28,4 +29,6 @@ public:
 	static float RtoD(const float aR);
 
 };
+
+
 

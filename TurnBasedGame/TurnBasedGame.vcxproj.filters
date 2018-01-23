@@ -67,7 +67,12 @@
     <ClCompile Include="Sprite.cpp">
       <Filter>src\Code\Sprite</Filter>
     </ClCompile>
-    <ClCompile Include="Def.cpp" />
+    <ClCompile Include="Def.cpp">
+      <Filter>src\CPP Tools\Def</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>src\Code\GameObjects\Player</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="src">
@@ -126,6 +131,9 @@
     </Filter>
     <Filter Include="src\CPP Tools\Def">
       <UniqueIdentifier>{47b551c7-8cd5-4ad6-9333-ec06fa52338d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Code\GameObjects\Player">
+      <UniqueIdentifier>{7136af56-dd78-47ca-b011-054dc001260c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -195,7 +203,12 @@
     <ClInclude Include="Sprite.h">
       <Filter>src\Code\Sprite</Filter>
     </ClInclude>
-    <ClInclude Include="Def.h" />
+    <ClInclude Include="Def.h">
+      <Filter>src\CPP Tools\Def</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>src\Code\GameObjects\Player</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="icon.rc" />

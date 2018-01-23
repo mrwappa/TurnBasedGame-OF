@@ -13,5 +13,8 @@ public:
 	static int Keys[8196];
 	static bool MousePress[8196];
 	static int Mouse[8196];
+
+	static bool ScrollWheel[2];
 };
+
 #endif // !INPUTHANDLE_H

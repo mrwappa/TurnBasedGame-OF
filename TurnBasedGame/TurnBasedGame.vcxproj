@@ -178,6 +178,7 @@
   <ItemGroup>
     <ClCompile Include="Def.cpp" />
     <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Sprite.cpp" />
     <ClCompile Include="src\InputHandler.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -201,6 +202,7 @@
   <ItemGroup>
     <ClInclude Include="Def.h" />
     <ClInclude Include="GameObject.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Sprite.h" />
     <ClInclude Include="src\GrowingArray.h" />
     <ClInclude Include="src\InputHandler.h" />

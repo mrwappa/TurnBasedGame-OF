@@ -5,6 +5,7 @@
 #include "Def.h"
 #include "ofGraphics.h"
 
+
 class Sprite 
 {
 public:
