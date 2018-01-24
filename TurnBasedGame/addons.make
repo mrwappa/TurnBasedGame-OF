@@ -1,4 +1,0 @@
-ofxGui
-ofxThreadedImageLoader
-ofxVectorGraphics
-ofxXmlSettings

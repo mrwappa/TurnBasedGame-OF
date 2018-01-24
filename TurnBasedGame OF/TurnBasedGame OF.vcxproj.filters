@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxBaseGui.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxButton.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxGuiGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxLabel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxPanel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxSlider.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxSliderGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxToggle.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxThreadedImageLoader\src\ofxThreadedImageLoader.cpp">
+      <Filter>addons\ofxThreadedImageLoader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="GSprite.cpp">
+      <Filter>Code\GSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Code\Game Objects\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Code\Game Objects\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Def.cpp">
+      <Filter>CPP Tools\Def</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHandler.cpp">
+      <Filter>Code\InputHandler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui">
+      <UniqueIdentifier>{4F2A59AF-5F4E-704B-D067-EC13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui\src">
+      <UniqueIdentifier>{645E9533-4DCD-6179-1CDF-CB65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxThreadedImageLoader">
+      <UniqueIdentifier>{4FCFBE74-4716-4092-C67F-91AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxThreadedImageLoader\src">
+      <UniqueIdentifier>{96E590A4-6AB6-FE3D-02EC-8D08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{fd26ed26-b464-42bd-96ae-62530acdfbf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game Objects">
+      <UniqueIdentifier>{103d1fbf-59f3-45fb-a74f-4b9fc34c6e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game Objects\GameObject">
+      <UniqueIdentifier>{81830ab5-64d3-4b1b-aa2d-865924fceff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\InputHandler">
+      <UniqueIdentifier>{5d75fa2d-d133-4e65-a804-eba92f6c5d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\GSprite">
+      <UniqueIdentifier>{db460adb-4518-44f8-9736-a13ab43b1b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP Tools">
+      <UniqueIdentifier>{8725ad61-eb89-4767-b1f5-51b6c48648c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CPP Tools\Def">
+      <UniqueIdentifier>{7a81f8af-b489-4c06-90e2-bf12ccc1b3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\Game Objects\Player">
+      <UniqueIdentifier>{9dd94460-70f2-4e04-bc65-fcfdfc64667e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxBaseGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxButton.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxGuiGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxLabel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxPanel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxSlider.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxSliderGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxGui\src\ofxToggle.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxThreadedImageLoader\src\ofxThreadedImageLoader.h">
+      <Filter>addons\ofxThreadedImageLoader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\..\OpenFrameWorks v0.9.8\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="GrowingArray.h">
+      <Filter>CPP Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>CPP Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="GSprite.h">
+      <Filter>Code\GSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Code\Game Objects\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Code\Game Objects\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Def.h">
+      <Filter>CPP Tools\Def</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Code\InputHandler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
